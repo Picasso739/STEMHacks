@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAD6C06C259559A20042A4F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAD6C06B259559A20042A4F1 /* GoogleService-Info.plist */; };
 		AAFEC6C2251AD2F1002908F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C1251AD2F1002908F7 /* AppDelegate.swift */; };
 		AAFEC6C4251AD2F1002908F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C3251AD2F1002908F7 /* SceneDelegate.swift */; };
 		AAFEC6C6251AD2F1002908F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C5251AD2F1002908F7 /* ViewController.swift */; };
 		AAFEC6C9251AD2F1002908F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFEC6C7251AD2F1002908F7 /* Main.storyboard */; };
 		AAFEC6CB251AD2F4002908F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFEC6CA251AD2F4002908F7 /* Assets.xcassets */; };
 		AAFEC6CE251AD2F4002908F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFEC6CC251AD2F4002908F7 /* LaunchScreen.storyboard */; };
+		CF460E9F978EBFEF2CEDDE3A /* Pods_STEMHacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3F063D0E575A3919A6E92F /* Pods_STEMHacks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2ED8BE3EA1425CB9B6CD2664 /* Pods-STEMHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEMHacks.release.xcconfig"; path = "Target Support Files/Pods-STEMHacks/Pods-STEMHacks.release.xcconfig"; sourceTree = "<group>"; };
+		AAD6C06B259559A20042A4F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AAFEC6BE251AD2F1002908F7 /* STEMHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEMHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFEC6C1251AD2F1002908F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAFEC6C3251AD2F1002908F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		AAFEC6CA251AD2F4002908F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAFEC6CD251AD2F4002908F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAFEC6CF251AD2F4002908F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39D72C8161D176500D8EDFB /* Pods-STEMHacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEMHacks.debug.xcconfig"; path = "Target Support Files/Pods-STEMHacks/Pods-STEMHacks.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3F063D0E575A3919A6E92F /* Pods_STEMHacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STEMHacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF460E9F978EBFEF2CEDDE3A /* Pods_STEMHacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1C098704D913FE6ACC99B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB3F063D0E575A3919A6E92F /* Pods_STEMHacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AAFEC6B5251AD2F1002908F7 = {
 			isa = PBXGroup;
 			children = (
 				AAFEC6C0251AD2F1002908F7 /* STEMHacks */,
 				AAFEC6BF251AD2F1002908F7 /* Products */,
+				D3A8CF5C301F2C20BD22BEBD /* Pods */,
+				8D1C098704D913FE6ACC99B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +80,18 @@
 				AAFEC6CA251AD2F4002908F7 /* Assets.xcassets */,
 				AAFEC6CC251AD2F4002908F7 /* LaunchScreen.storyboard */,
 				AAFEC6CF251AD2F4002908F7 /* Info.plist */,
+				AAD6C06B259559A20042A4F1 /* GoogleService-Info.plist */,
 			);
 			path = STEMHacks;
+			sourceTree = "<group>";
+		};
+		D3A8CF5C301F2C20BD22BEBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B39D72C8161D176500D8EDFB /* Pods-STEMHacks.debug.xcconfig */,
+				2ED8BE3EA1425CB9B6CD2664 /* Pods-STEMHacks.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AAFEC6D2251AD2F4002908F7 /* Build configuration list for PBXNativeTarget "STEMHacks" */;
 			buildPhases = (
+				9D0A855A22F7D1B95EEF3A4F /* [CP] Check Pods Manifest.lock */,
 				AAFEC6BA251AD2F1002908F7 /* Sources */,
 				AAFEC6BB251AD2F1002908F7 /* Frameworks */,
 				AAFEC6BC251AD2F1002908F7 /* Resources */,
+				F0D64642B3AFE08746764C1C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +154,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAFEC6CE251AD2F4002908F7 /* LaunchScreen.storyboard in Resources */,
+				AAD6C06C259559A20042A4F1 /* GoogleService-Info.plist in Resources */,
 				AAFEC6CB251AD2F4002908F7 /* Assets.xcassets in Resources */,
 				AAFEC6C9251AD2F1002908F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9D0A855A22F7D1B95EEF3A4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STEMHacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D64642B3AFE08746764C1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STEMHacks/Pods-STEMHacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-STEMHacks/Pods-STEMHacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STEMHacks/Pods-STEMHacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AAFEC6BA251AD2F1002908F7 /* Sources */ = {
@@ -283,6 +355,7 @@
 		};
 		AAFEC6D3251AD2F4002908F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B39D72C8161D176500D8EDFB /* Pods-STEMHacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +375,7 @@
 		};
 		AAFEC6D4251AD2F4002908F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ED8BE3EA1425CB9B6CD2664 /* Pods-STEMHacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
