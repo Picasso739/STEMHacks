@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -26,6 +27,19 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    }
+    
+    //function to download data
+    func downloadData(forSegment: Int) {
+        switch forSegment {
+        case 0:
+            //download data for announcements
+            Firestore.firestore().collection("")
+        case 1:
+            print()
+        default:
+            print("Error: Segment Index Not Found")
+        }
     }
 
     //function to activate when the menu button is pressed

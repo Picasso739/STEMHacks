@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AAD6C06C259559A20042A4F1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AAD6C06B259559A20042A4F1 /* GoogleService-Info.plist */; };
+		AAD6C06F25956E7E0042A4F1 /* Infrastructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD6C06E25956E7E0042A4F1 /* Infrastructure.swift */; };
 		AAFEC6C2251AD2F1002908F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C1251AD2F1002908F7 /* AppDelegate.swift */; };
 		AAFEC6C4251AD2F1002908F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C3251AD2F1002908F7 /* SceneDelegate.swift */; };
 		AAFEC6C6251AD2F1002908F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFEC6C5251AD2F1002908F7 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		2ED8BE3EA1425CB9B6CD2664 /* Pods-STEMHacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STEMHacks.release.xcconfig"; path = "Target Support Files/Pods-STEMHacks/Pods-STEMHacks.release.xcconfig"; sourceTree = "<group>"; };
 		AAD6C06B259559A20042A4F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AAD6C06E25956E7E0042A4F1 /* Infrastructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infrastructure.swift; sourceTree = "<group>"; };
 		AAFEC6BE251AD2F1002908F7 /* STEMHacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STEMHacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFEC6C1251AD2F1002908F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAFEC6C3251AD2F1002908F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				AAFEC6C1251AD2F1002908F7 /* AppDelegate.swift */,
 				AAFEC6C3251AD2F1002908F7 /* SceneDelegate.swift */,
 				AAFEC6C5251AD2F1002908F7 /* ViewController.swift */,
+				AAD6C06E25956E7E0042A4F1 /* Infrastructure.swift */,
 				AAFEC6C7251AD2F1002908F7 /* Main.storyboard */,
 				AAFEC6CA251AD2F4002908F7 /* Assets.xcassets */,
 				AAFEC6CC251AD2F4002908F7 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAD6C06F25956E7E0042A4F1 /* Infrastructure.swift in Sources */,
 				AAFEC6C6251AD2F1002908F7 /* ViewController.swift in Sources */,
 				AAFEC6C2251AD2F1002908F7 /* AppDelegate.swift in Sources */,
 				AAFEC6C4251AD2F1002908F7 /* SceneDelegate.swift in Sources */,
